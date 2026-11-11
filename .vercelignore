@@ -1,0 +1,9 @@
+# Never upload local secrets or build output to Vercel.
+node_modules/
+dist/
+.env
+.env.test
+.env.local
+.env.*.local
+*.log
+.DS_Store
